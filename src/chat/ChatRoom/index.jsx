@@ -69,7 +69,7 @@ function ChatRoom(props) {
 
                 </Col>
 
-                <Col xl={16} sm={24} md={14}  >
+                <Col span={24} xl={16} sm={24} md={14}  >
                     <div className='chatroom_header'>
                         <div className='chatroom_header_contact'>
                             <p>{nameRoom}</p>

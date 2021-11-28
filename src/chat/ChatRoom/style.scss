@@ -6,6 +6,9 @@
         max-height: 680px;
         overflow-y: auto;
         scroll-snap-type: y;
+        @media screen and (max-width: 300px) {
+            margin: 0px;
+        }
     }
 
     &_signout {
@@ -31,7 +34,6 @@
             p {
                 text-align: start;
             }
-         
         }
         @media screen and (max-width: 600px) {
             position: static;
@@ -54,6 +56,9 @@
         color: #282c34;
         font-size: 20px;
     }
+    @media screen and (max-width: 320px) {
+        margin: 0px;
+    }
 }
 
 .formchatbox {
@@ -63,12 +68,23 @@
     width: 60%;
     display: flex;
     font-size: 1.2rem;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 300px) {
+        width: 100%;
+    }
+    @media screen and (min-width: 300px) and  (max-width: 600px) {
         width: 80%;
     }
     @media screen and (min-width: 600px) and (max-width: 1024px) {
         width: unset;
-       bottom: 35%;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1200px) {
+        bottom: 0;
+    }
+    @media screen and (min-height: 1025px) and (max-height: 1400px) {
+        bottom: 35%;
+    }
+    @media screen and (min-height: 900px) and (max-height: 1024px) {
+        bottom: 8%;
     }
 }
 
@@ -81,9 +97,8 @@ form button {
         font-size: 1rem;
     }
     @media screen and (min-width: 600px) and (max-width: 1024px) {
-        width: unset
+        width: unset;
     }
-    
 }
 input {
     line-height: 1.5;
