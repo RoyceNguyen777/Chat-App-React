@@ -1,0 +1,9 @@
+.login {
+    background-color: #282c34;
+    text-align: center;
+    width: 55%;
+    height: 750px;
+    @media screen and (max-width: 900px) {
+        width: 90%;
+    }
+}
