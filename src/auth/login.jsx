@@ -25,7 +25,7 @@ function Login() {
                     </Title>
 
                     <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={auth} />
-                    <p style={{ margin: 'auto' }}>Hãy đăng nhập bằng Facebook hoặc Google của bạn và sử dụng như <a href='https://www.messenger.com/'>Messager</a> . Mình bảo đảm an toàn
+                    <p style={{ margin: 'auto' }}>Hãy đăng nhập bằng Facebook hoặc Google của bạn và sử dụng như <a href='https://www.messenger.com/'>Messenger</a> . Mình bảo đảm an toàn
                         vì do mình dùng bên thứ 3 chuyên bảo mật <a href='https://developers.facebook.com/'>Tài Khoản của Facebook</a> và <a href='https://firebase.google.com/'>Google</a> <br />
                     </p>
                 </div>
